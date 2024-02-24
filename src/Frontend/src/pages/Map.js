@@ -22,7 +22,7 @@ const center = {
 function App() {
   const { isLoaded } = useJsApiLoader({
     id: "google-map-script",
-    googleMapsApiKey: "AIzaSyCuluqIJwBbz_OMmqHXS8u2oxc_qxI-_40",
+    googleMapsApiKey: "",
   });
 
   const [locationsData, setLocationsData] = useState([]);
